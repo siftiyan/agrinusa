@@ -1913,6 +1913,8 @@ h3.sec-title {
 }
 .sub-title img {
   margin: 0px 8px 0 8px;
+  width: 16px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
 }
 .sub-title.text-white img {
   filter: brightness(9) grayscale(1);
