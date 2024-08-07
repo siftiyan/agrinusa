@@ -12528,6 +12528,31 @@ li.trackback {
     font-size: 20px;
   }
 }
+
+.progress-value-below {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.progress {
+  position: relative;
+  height: 25px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #4caf50;
+  text-align: center;
+  color: white;
+  line-height: 25px;
+  font-size: 14px;
+}
+
 .skill-feature .progress {
   background: #EFEFEF;
   height: 9px;
@@ -16372,3 +16397,5 @@ li.trackback {
 [dir=rtl] .product-intro-card .intro-card-details {
   text-align: end;
 }
+
+
